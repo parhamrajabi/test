@@ -7,6 +7,7 @@ int main(){
 	A[][MAX]={"Vaporeon", "Jolteon","Flareon", "Espeon", "Umbreon", "Leafeon", "Glaceon", "Sylveon"};
 	char B[MAX];
 	scanf("%d",&n);
+	scanf("%s",B);
 	if(n==6)
 	printf("Espeon");
 	if(n==8)
